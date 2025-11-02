@@ -23,7 +23,7 @@ var locShort = {
 }
 var kvName = 'kvault-${locShort[location]}-${envShort[environment]}-${purpose}'
 
-resource myKeyVault 'Microsoft.KeyVault/vaults@2022-11-01' = {
+resource myKeyVault 'Microsoft.KeyVault/vaults@2025-05-01' = {
   name: kvName
   location: location
   properties: {
